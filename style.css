@@ -1,0 +1,243 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    align-items: center;
+
+}
+.header ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size: 30px;
+    color: #204E51;
+    font-weight: bold;
+}
+.loginBtn{
+    font-size: 30px;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 40px;
+    background-color: #204E51;
+
+
+}
+.SignInBtn{
+    font-size: 30px;
+    color: #204E51;
+    border: 3px #204E51 solid;
+    border-radius: 12px;
+    padding: 10px 40px;
+    background-color: white;
+}
+.hero{
+    height: 550px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://img.freepik.com/free-photo/green-field_155999-13.jpg?t=st=1716638595~exp=1716642195~hmac=7f4e3eb50803c908b24906f710bf97f6d1e01bc5e3bf915c89eae726047038f3&w=740);
+    background-repeat: no-repeat;
+    background-size: 100% 550px;
+    color: white;
+    text-align: center;
+}
+.hero h1{
+    font-size: 80px;
+    padding-top: 80px;
+}
+.header p{
+    margin-bottom: 20px;
+}
+
+
+.serice-title{
+    text-align: center;
+}
+.serice-title h1{
+    font-size: 120px;
+}
+.serice-title p{
+    margin: 10px 430px;
+}
+.service-parent{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 50px 2px;
+}
+.service{
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+   background-color: #204E51;
+    margin: 12px;
+    color: white;
+    text-align: center;
+   
+}
+
+.product-parent{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin: 50px 2px;
+   
+}
+.product{
+    border-radius: 10px;
+    width: 250px;
+    height: 500px;
+
+    background-color: #204E51;
+
+}
+
+.service i{
+    padding-bottom: 17px;
+    padding-top: 80px;
+    font-size: 60px;
+
+}
+.product{
+    width: 250px;
+    height: 500px;
+    text-align: center;
+    color: white;
+    padding-top:30px ;
+}
+
+  .product img{
+        width: 200px;
+        height: 150px;
+        border-radius: 12px;
+        margin-bottom: 30px;
+       
+  }
+  .sustain{
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),  url(https://s3-alpha-sig.figma.com/img/62bf/b399/70435103a310c915a2efd2f9df46067a?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=azmK9V8pdGIH9AjZr4AJTCjkv5WeO3CTdN74SScTkrqfwnagKuZUKSMauJzDzClsSixghI1xyqWQPbU2D6mSzqRplO9jRFOiodTF3EnZ777w7C1~Lu8X0lLx4kbb5SxPb1rKR6XgVtyIRDiGCcQAi1voErFvQ67YLEjFrpWnGJeTgrpfrVozS6PL194UiATjLmIOyAP1OqCENB7~93YnTWCWXyMMDWGzDz~1v2pcEEWh8FQHIeQhyqBY2kW8ZBzj3PydfhjrEq3Q7Qi3usPOHBKqKyhpad5wfCak5N9CmQOLIDkPq1WlczwuXfTQJKk10O5wwntl9O1onCY9du~OZw__);
+  background-repeat: no-repeat;
+  background-size: 100% 500px;
+  }
+  .sustain h1{
+    font-size: 90px;
+    color: white;
+   padding: 50px;
+  }
+  .sustain button{
+    margin-left: 30px;
+  }
+.benefit-right{
+    background-color: #204E51  ;
+    border-radius: 10px;
+height: 600px;
+width: 550px;
+
+
+}
+.benefit-left{
+width: 500px;
+}
+.benefit-parent{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 30px;
+}
+
+.benefit-left h1{
+    font-size: 65px;
+    margin-top: 100px;
+}
+.benefit-left p{
+    margin-bottom: 30px;
+}
+.icon-parent{
+    display: flex;
+    color: white;
+    margin: 30px;
+    gap: 60px;
+}
+.icon-parent i{
+    font-size: 70px;
+}
+.icon-parent h1{
+    font-size: 60px;
+}
+.header i{
+    display: none;
+}
+.serice-title p{
+font-size: 20px;
+}
+
+
+
+
+
+@media screen and (max-width:600px){
+    .header i{
+        font-size: 60px;
+        display: block;
+    }
+    .header{
+        padding: 12px;
+    }
+    .header ul{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    .header h1{
+        font-size: 26px;
+    }
+    .hero h1{
+        font-size: 30px;
+        margin: 10px 10px;
+    }
+    .loginBtn{
+        margin-bottom: 20px;
+        padding: 10px 10px;
+    }
+    
+    .serice-title h1{
+        font-size: 30px;
+    }
+    .serice-title p{
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .service-parent{
+        flex-direction: column;
+    }
+    
+    .product-parent{
+        flex-direction: column;
+    }
+    .sustain h1{
+        font-size: 20px;
+    }
+    .benefit-parent {
+        flex-direction: column;
+
+    }
+    .benefit-left h1{
+        font-size: 24px;
+        margin-left: 50px;
+    }
+    .benefit-left p{
+        margin-left: 50px;
+        font-size: 18px;
+    }
+    .loginBtn{
+        margin-left: 50px;
+    }
+}
